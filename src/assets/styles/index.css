@@ -65,6 +65,7 @@ form {
   margin-bottom: 20px;
   border-bottom: 2px solid white;
   padding-bottom: 10px;
+  align-items: center;
 }
 
 .todo-input, .todo-button {
@@ -123,8 +124,4 @@ form {
 .todo-exit-active {
   transform: translateX(-350px);
   transition: all 500ms ease-in;
-}
-
-.todo-item todo-enter-done {
-  align-items: center;
 }
